@@ -165,8 +165,8 @@ nav {
 }
 
 #home-content-container h1 {
-    font-size: 2.8rem;
-    line-height: 2.7rem;
+    font-size: 3rem;
+    line-height: 3.2rem;
 }
 
 #home-content-container p {
@@ -221,7 +221,7 @@ img {
 }
 
 .service-item h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin: 1rem 0;
 }
 
@@ -236,6 +236,7 @@ img {
     border-radius: 20px;
     text-align: center;
     background-color: #F6F6F6;
+    line-height: 2rem;
 }
 
 #contact-background {
@@ -350,8 +351,17 @@ footer p {
         text-align: left;
     }
 
+    #home-content-container h1 {
+        font-size: 2.5rem;
+        line-height: 2.7rem;
+    }
+
     #img-container {
         margin: 0;
+    }
+
+    .service-item h3 {
+        font-size: 1.4rem;
     }
 
     #contact-container {
