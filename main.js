@@ -57,11 +57,14 @@ window.addEventListener('DOMContentLoaded', () => {
     scrollNav();     // display navbar when scroll down
     homeBtn();       // home button click event: scroll to top of page
     closeDropdown(); // automatic close dropdown menu on menu click
-
-    const currYear = (new Date()).getFullYear();
-    const copyright = `&copy; ${currYear} Aacolink`;
-    document.getElementById('copyright-info').innerHTML = copyright;
+    fillCopyRight();
 });
+
+function fillCopyRight() {
+    const currYear = (new Date()).getFullYear();
+    const copyright = `Copyright &copy; ${currYear} Aacolink. All Rights Reserved`;
+    document.getElementById('copyright-info').innerHTML = copyright;
+}
 
 function clickBurger() {
     let burger = document.getElementById('burger');

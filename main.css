@@ -38,8 +38,10 @@ h3,
     font-family: 'Poppins-bold', sans-serif;
 }
 
-p {
-    font-size: 1.1rem;
+a,
+p,
+input {
+    font-size: 1.2rem;
 }
 
 nav {
@@ -83,7 +85,7 @@ nav {
 
 #logo {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.85rem;
     padding-top: 0.2rem;
     border: none;
     background-color: transparent;
@@ -330,6 +332,13 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
+
+    a,
+    p,
+    input {
+        font-size: 1rem;
+    }
+
     #hero {
         display: flex;
         flex-direction: row;
