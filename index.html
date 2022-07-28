@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aacolink Bookkeeping Site">
+    <title>Aacolink</title>
+    <link rel="preload" as="font" href="./font/poppins-regular-webfont.woff2"
+        type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./font/poppins-light-webfont.woff2"
+        type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./font/poppins-semibold-webfont.woff2"
+        type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header id="home">
+        <nav>
+            <button type="button" id="logo">Aacolink</button>
+            <button type="button" aria-label="Menu button" class="btns"
+                id="burger">
+                <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" width="24px" height="24px">
+                    <path
+                        d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z" />
+                </svg>
+            </button>
+            <ul id="menu">
+                <li class="menu-item">
+                    <button type="button" id="nav-home">Home</button>
+                </li>
+                <li class="menu-item">
+                    <a href="#services">Services</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#mission">Mission</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="hero">
+            <div id="home-content-container">
+                <h1>
+                    Small business bookkeeping service has never been this easy.
+                </h1>
+                <p>
+                    From bookkeeping to payroll, Aacolink handles your financial
+                    concerns so you can focus on running your business, helping
+                    you save time and money.
+                </p>
+                <a href="#contact" class="btns" id="contact-btn">Contact Us</a>
+            </div>
+            <div id="img-container">
+                <img src="./assets/aacolink-header-pic.jpg"
+                    alt="Team of people discussing">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="sect" id="services">
+            <h2 class="sect-title">Our Services</h2>
+            <div id="services-container">
+                <ul id="services-list">
+                    <li class="service-item">
+                        <article>
+                            <i class="fa-solid fa-receipt"></i>
+                            <h3>Bookkeeping</h3>
+                            <p>
+                                With our in-depth experience in bookkeeping
+                                from single owner to mid-sized companies, we
+                                record your day-to-day financial transactions
+                                and provide verifications from ledgers all
+                                through the QuickBooks software.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="service-item">
+                        <article>
+                            <i class="fa-solid fa-money-check-dollar"></i>
+                            <h3>Payroll</h3>
+                            <p>
+                                We help you set up, manage, and maintain
+                                compensation packages and benefits for all your
+                                employees, as well as, all other matters related
+                                to payroll processes.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="service-item">
+                        <article>
+                            <i class="fa-solid fa-money-bill-transfer"></i>
+                            <h3>Account Payable & Receivable</h3>
+                            <p>
+                                We provide an all-in-one
+                                solution to oversee billing invoices,
+                                payments to vendors, and keeping track of
+                                spending, helping you resolve issues
+                                with delinquent accounts and reconciliations.
+                            </p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="sect" id="mission">
+            <h2 class="sect-title">Our Mission</h2>
+            <p id="mission-text">
+                Our mission is to provide small and medium-sized businesses with
+                trusted and reliable controller, bookkeeping and payroll
+                services. Let our clients focus on their business and the growth
+                of their communities, while we handle the records and
+                administrative side of things, establishing long term and stable
+                cross border partnerships.
+            </p>
+        </section>
+        <section class="sect" id="contact">
+            <h2 class="sect-title">Contact Us</h2>
+            <div id="contact-background">
+                <div id="contact-container">
+                    <form id="contact-form">
+                        <p id="contact-short-msg">
+                            We'd love to hear from you! Leave a message below
+                            and we
+                            will get in touch with you soon.
+                        </p>
+                        <label>Name<span>*</span>
+                            <input type="text" class="user-input"
+                                name="user_name" required>
+                        </label>
+                        <label>Business<span>*</span>
+                            <input type="text" class="user-input"
+                                name="user_business" required>
+                        </label>
+                        <label>Email<span>*</span>
+                            <input type="email" class="user-input"
+                                name="user_email" required>
+                        </label>
+                        <label>Phone
+                            <input type="number" class="user-input"
+                                name="user_phone">
+                        </label>
+                        <label>Industry<span>*</span>
+                            <select id="user_industry" name="user_industry"
+                                required>
+                                <option value="none" selected disabled>
+                                    Select Your Industry*
+                                </option>
+                                <option value="Accommodation and Food Services">
+                                    Accommodation and Food Services
+                                </option>
+                                <option
+                                    value="Agriculture, Forestry, Fishing and Hunting">
+                                    Agriculture, Forestry, Fishing and Hunting
+                                </option>
+                                <option
+                                    value="Arts, Entertainment and Recreation">
+                                    Arts, Entertainment and Recreation
+                                </option>
+                                <option value="Construction">
+                                    Construction
+                                </option>
+                                <option value="Educational Services">
+                                    Educational Services
+                                </option>
+                                <option value="Finance and Insurance">
+                                    Finance and Insurance
+                                </option>
+                                <option
+                                    value="Healthcare and Social Assistance">
+                                    Healthcare and Social Assistance
+                                </option>
+                                <option value="Manufacturing">
+                                    Manufacturing
+                                </option>
+                                <option value="Retail Trade">
+                                    Retail Trade
+                                </option>
+                                <option value="Transportation and Warehousing">
+                                    Transportation and Warehousing
+                                </option>
+                                <option value="Wholesale Trade">
+                                    Wholesale Trade
+                                </option>
+                                <option value="Other">
+                                    Other
+                                </option>
+                            </select>
+                        </label>
+                        <label>Message
+                            <textarea class="user-input" name="message" rows="5"
+                                placeholder="How can we help?"></textarea>
+                        </label>
+                        <input id="submit-btn" type="submit"
+                            value="Send Message">
+                        <p id="submit-status">Sending...</p>
+                        <hr>
+                        <h3>Contact Information</h3>
+                        <div class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+510-566-6436</p>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>hello@example.com</p>
+                        </div>
+                    </form>
+                    <div id="img-container">
+                        <img src="./assets/aacolink-contact-pic.jpg"
+                            alt="Guy shaking hands" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-links">
+            <a href="#services">Services</a>
+            &#8226;
+            <a href="#mission">Mission</a>
+            &#8226;
+            <a href="#contact">Contact</a>
+        </div>
+        <strong id="copyright-info"></strong>
+        <p>Image by fauxels via Pexels Copyright-free</p>
+    </footer>
+    <script defer type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script defer src="./main.js"></script>
+</body>
+
+</html>
