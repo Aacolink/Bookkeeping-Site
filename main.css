@@ -41,7 +41,8 @@ h3,
 a,
 p,
 input,
-button {
+button,
+label {
     font-size: 1.25rem;
 }
 
@@ -338,7 +339,8 @@ footer p {
     a,
     p,
     input,
-    button {
+    button,
+    label {
         font-size: 1rem;
     }
 
