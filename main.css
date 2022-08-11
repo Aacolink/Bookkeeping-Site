@@ -312,6 +312,14 @@ footer p {
     text-decoration: none;
 }
 
+#footer-links a:hover {
+    text-decoration: underline;
+}
+
+#footer-links a:active {
+    text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
 
     a,
