@@ -218,7 +218,7 @@ img {
 #contact-background {
     background-color: #bed0e6;
     transform: skewY(-3deg);
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
 }
 
 #contact-container {
